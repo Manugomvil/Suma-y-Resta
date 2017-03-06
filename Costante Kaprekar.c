@@ -76,5 +76,5 @@ else
 {
     printf ("Error: Elnumero no es de 4 digitos");
 }
-getch();
+
 }

@@ -4,17 +4,9 @@
 para fahr = 0, 20, ..., 300 */
 main( )
 {
-	int F, celsius;
-	int lower, upper, step;
-	lower = 0;
-	upper = 300;
-	step = 20;
-	F = lower;
-	while(F < = upper) {
-		celsius = 5 * (F—32) / 9;
-		printf("%d\t%d\n", F, celsius);
-		F = F + step;
-	}
-
-
+	float F,C;
+	printf("Introduzca la cantidad a convertir");
+	scanf("%f",&F);
+	C=(F-32)*(5/9);
+	printf("%f°F=%f°C",F,C);
 }
