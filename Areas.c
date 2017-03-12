@@ -6,30 +6,10 @@
 
 main( ) 
 {
-	float Ac,l,b,h,A;
-	printf("Seleccione que Area desea calcular\n\nCuadrado----Presione 1.\nTri%cngulo---Presione 2.\nRect%cngulo--Presione 3.     ",160,160);
-	scanf("%f",&Ac);
-	if(Ac==1){ /*Cuadrado*/
-		printf("\nCalcular Area de un Cuadrado\n\n¿Cual es el valor del lado?\n");
-		scanf("%f",&l);
-		A=pow(l,2);
-		printf("\nA=%f",A);
-	}else{
-		if(Ac==2){ /*Triángulo*/
-			printf("\nCalcular Area de un Tri%cngulo\n\n¿Cual es el valor de la base?\n",160);
-			scanf("%f",&b);
-			printf("\n¿Cual es el valor de la altura?\n");
-			scanf("%f",&h);
-			A=(b*h)/2;
-			printf("\nA=%f",A);
-			}else{
-				if(Ac==3){ /*Rectángulo*/
-				printf("\nCalcular Area de un Rect%cngulo\n\n¿Cual es el valor de la base?\n",160);
-				scanf("%f",&b);
-				printf("\n¿Cual es el valor de la altura?\n");
-				scanf("%f",&h);
-				A=b*h;
-				printf("\nA=%f",A);
-		}}}
+int K=0,I=0,SumK;
+for(K=0;K<5;K++){
+				SumK=SumK+K+I;printf("\n%d+%d",K,I);
+				SumK=0;
+			}
 			return 0;
 }
